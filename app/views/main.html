@@ -1,0 +1,28 @@
+<div class="jumbotron" ng-controller="MainCtrl">
+  <h1>Fat Blasting Zone</h1>
+
+    <p>Find your target blasting zone with the following formula. </p>
+
+  Your Age:
+
+   <input type="text" ng-model="age">
+
+    <br>
+   The Formula:
+   <br>
+
+   220 - {{age}} = {{varx}} <br>
+   {{varx}} * 0.6 = {{minHR}} <br>
+   {{varx}} * 0.8 = {{maxHR}} <br>
+
+
+   <div class="heartAnim" ng-show="showHeart" class="ng-show">
+   HEARt
+
+    {{showHeart}}   
+   </div>
+</div>
+
+<div class="row marketing">
+   <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oUNCcWpUgyM' frameborder='0' allowfullscreen></iframe></div>
+</div>
